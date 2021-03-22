@@ -9,41 +9,39 @@ export default class RoomJoinPage extends Component {
             roomCode: "",
             error: "",
         };
-        this._handleTextFieldChange = this._handleTextFieldChange.bind(this);
-        this._roomButtonPressed = this._roomButtonPressed.bind(this);
+        this.handleTextFieldChange = this.handleTextFieldChange.bind(this);
+        this.roomButtonPressed = this.roomButtonPressed.bind(this);
     }
 
     render() {
         return (
-            <Grid container spacing={1} align="center">
-                <Grid item xs={12}>
+            <Grid container spacing={1}>
+                <Grid item xs={12} align="center">
                     <Typography variant="h4" component="h4">
                         Join a Room
                     </Typography>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={12} align="center">
                     <TextField
                         error={this.state.error}
-                        label="code"
-                        placeholder="Enter Room Code"
+                        label="Code"
+                        placeholder="Enter a Room Code"
                         value={this.state.roomCode}
                         helperText={this.state.error}
                         variant="outlined"
-                        onChange={this._handleTextFieldChange}
-                    >
-                        Join a Room
-                    </TextField>
+                        onChange={this.handleTextFieldChange}
+                    />
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={12} align="center">
                     <Button
                         variant="contained"
                         color="primary"
-                        onClick={this._roomButtonPressed}
+                        onClick={this.roomButtonPressed}
                     >
                         Enter Room
                     </Button>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={12} align="center">
                     <Button
                         variant="contained"
                         color="secondary"
@@ -56,13 +54,14 @@ export default class RoomJoinPage extends Component {
             </Grid>
         );
     }
-    _handleTextFieldChange(e) {
+
+    handleTextFieldChange(e) {
         this.setState({
             roomCode: e.target.value,
         });
     }
 
-    _roomButtonPressed(e) {
+    roomButtonPressed() {
         const requestOptions = {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -75,9 +74,7 @@ export default class RoomJoinPage extends Component {
                 if (response.ok) {
                     this.props.history.push(`/room/${this.state.roomCode}`);
                 } else {
-                    this.setState({
-                        error: "Room not found",
-                    });
+                    this.setState({ error: "Room not found." });
                 }
             })
             .catch((error) => {
