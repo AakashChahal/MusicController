@@ -12,6 +12,13 @@ body {
     height: 100%;
     top: 0;
     left: 0;
+    background: rgb(111, 104, 233);
+    background-image: linear-gradient(
+        90deg,
+        rgba(111, 104, 233, 1) 0%,
+        rgba(251, 99, 99, 0.9868989832261029) 30%,
+        rgba(203, 246, 255, 1) 100%
+    );
 }
 #app {
     width: 100%;
