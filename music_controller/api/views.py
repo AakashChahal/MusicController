@@ -124,11 +124,12 @@ class UpdateRoom(APIView):
 
             room = queryset[0]
             user_id = self.request.session.session_key
-            if user_id != room.host:
+            if room.host != user_id:
                 return Response({"Message": "You are not the host of this room"}, status=status.HTTP_403_FORBIDDEN)
 
             room.guest_can_pause = guest_can_pause
             room.votes_to_skip = votes_to_skip
             room.save(update_fields=['guest_can_pause', 'votes_to_skip'])
+            return Response(RoomSerializer(room).data, status=status.HTTP_200_OK)
 
         return Response({"Bad Request": "Invalid data..."}, status=status.HTTP_400_BAD_REQUEST)
