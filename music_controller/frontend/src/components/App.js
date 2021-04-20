@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import HomePage from "./HomePage";
+// import SignIn from "./SignIn";
 
 export default class App extends Component {
     constructor(props) {
