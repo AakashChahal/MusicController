@@ -8,4 +8,4 @@ def index(request, *args, **kwargs):
 
 
 def register(request, *args, **kwargs):
-    return render(request, '../src/components/SignUp.js')
+    return render(request, 'frontend/index.html')
