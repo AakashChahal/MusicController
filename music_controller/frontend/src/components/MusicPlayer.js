@@ -9,10 +9,45 @@ import {
 import PlayArrowIcon from "@material-ui/icons/PlayArrow";
 import PauseIcon from "@material-ui/icons/Pause";
 import SkipNextIcon from "@material-ui/icons/SkipNext";
+import SkipPreviousIcon from "@material-ui/icons/SkipPrevious";
+import Forward10Icon from "@material-ui/icons/Forward10";
+import ReplayIcon from "@material-ui/icons/Replay";
 
 export default class MusicPlayer extends Component {
     constructor(props) {
         super(props);
+    }
+
+    shuffleSongs() {
+        const requestOptions = {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+        };
+        fetch("/spotify/shuffle", requestOptions);
+    }
+
+    seekSong() {
+        const requestOptions = {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+        };
+        fetch("/spotify/seek", requestOptions);
+    }
+
+    forward10Sec() {
+        const requestOptions = {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+        };
+        fetch("/spotify/forward", requestOptions);
+    }
+
+    prevSong() {
+        const requestOptions = {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+        };
+        fetch("/spotify/previous", requestOptions);
     }
 
     skipSong() {
@@ -60,6 +95,13 @@ export default class MusicPlayer extends Component {
                             {this.props.artist}
                         </Typography>
                         <div>
+                            <IconButton onClick={() => this.seekSong()}>
+                                <ReplayIcon />
+                            </IconButton>
+                            <IconButton onClick={() => this.prevSong()}>
+                                <SkipPreviousIcon />
+                                {this.props.votes} / {this.props.votes_required}
+                            </IconButton>
                             <IconButton
                                 onClick={() => {
                                     this.props.is_playing
@@ -77,6 +119,12 @@ export default class MusicPlayer extends Component {
                                 {this.props.votes} / {this.props.votes_required}
                                 <SkipNextIcon />
                             </IconButton>
+                            {/* <IconButton onClick={() => this.forward10Sec()}>
+                                <Forward10Icon />
+                            </IconButton> */}
+                            {/* <IconButton onCLick={() => this.shuffleSongs()}>
+                                <ShuffleIcon />
+                            </IconButton> */}
                         </div>
                     </Grid>
                 </Grid>

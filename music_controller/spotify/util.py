@@ -64,11 +64,12 @@ def refresh_spotify_token(session_id):
         session_id, access_token, token_type, expires_in, refresh_token)
 
 
-def execute_spotify_api_request(session_id, endpoint, post_=False, put_=False):
+def execute_spotify_api_request(session_id, endpoint, post_=False, put_=False, replay_=False):
     tokens = get_user_tokens(session_id)
     headers = {'Content-Type': 'application/json',
                'Authorization': "Bearer " + tokens.access_token}
-
+    if replay_ and put_:
+        put(BASE_URL + endpoint + '?position_ms=1', headers=headers)
     if post_:
         post(BASE_URL + endpoint, headers=headers)
     if put_:
@@ -81,6 +82,10 @@ def execute_spotify_api_request(session_id, endpoint, post_=False, put_=False):
         return {'Error': 'Issue with request'}
 
 
+def replay_song(session_id):
+    return execute_spotify_api_request(session_id, "player/seek", put_=True, replay_=True)
+
+
 def play_song(session_id):
     return execute_spotify_api_request(session_id, "player/play", put_=True)
 
@@ -91,3 +96,7 @@ def pause_song(session_id):
 
 def skip_song(session_id):
     return execute_spotify_api_request(session_id, "player/next", post_=True)
+
+
+def prev_song(session_id):
+    return execute_spotify_api_request(session_id, "player/previous", post_=True)
