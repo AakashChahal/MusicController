@@ -12,6 +12,19 @@ import {
 } from "react-router-dom";
 import Info from "./Info";
 
+// function Hero({ handleLogOut }) {
+//     return (
+//         <section className="hero">
+//             <nav>
+//                 <h2>Welcome</h2>
+//                 <button onClick={handleLogOut}>Log Out</button>
+//             </nav>
+//         </section>
+//     );
+// }
+
+// export default Hero;
+
 export default class HomePage extends Component {
     constructor(props) {
         super(props);
