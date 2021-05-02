@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 var firebaseConfig = {
-    apiKey: "AIzaSyDsaNopeIr2WcCciKVCIg_pYPOe5pexTEQ",
-    authDomain: "login-cred-3b710.firebaseapp.com",
-    projectId: "login-cred-3b710",
-    storageBucket: "login-cred-3b710.appspot.com",
-    messagingSenderId: "1038813766540",
-    appId: "1:1038813766540:web:753782e619de196d876ca9",
-    measurementId: "G-WM9CV7C3SS",
+    apiKey: "AIzaSyAknEtB6-eNTF7OFExJRXcxvCjkAksp4hc",
+    authDomain: "music-app-login.firebaseapp.com",
+    projectId: "music-app-login",
+    storageBucket: "music-app-login.appspot.com",
+    messagingSenderId: "184430199162",
+    appId: "1:184430199162:web:5c374d87d9cd3b6da696c3",
+    measurementId: "G-TS6VTKWDYR",
 };
 
 const fire = firebase.initializeApp(firebaseConfig);
