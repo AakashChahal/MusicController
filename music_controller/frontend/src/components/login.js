@@ -17,7 +17,11 @@ function Login(props) {
     return (
         <section className="login">
             <div className="loginContainer">
-                <label htmlFor="">Username</label>
+                <h2>
+                    JOIN THE HOUSE PARTY
+                    <br /> MUSIC CONTROLLER
+                </h2>
+                <label htmlFor="">Email</label>
                 <input
                     type="text"
                     autoFocus
@@ -37,7 +41,9 @@ function Login(props) {
                 <div className="btnContainer">
                     {hasAccount ? (
                         <>
-                            <button onClick={handleLogin}>Sign In</button>
+                            <button className="sign-btn" onClick={handleLogin}>
+                                Sign In
+                            </button>
                             <p>
                                 Dont have an account ?
                                 <span
@@ -49,7 +55,9 @@ function Login(props) {
                         </>
                     ) : (
                         <>
-                            <button onClick={handleSignup}>Sign Up</button>
+                            <button className="sign-btn" onClick={handleSignup}>
+                                Sign Up
+                            </button>
                             <p>
                                 Have an account ?
                                 <span

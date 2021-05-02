@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import RoomJoinPage from "./RoomJoinPage";
 import CreateRoomPage from "./CreateRoomPage";
-import { handleLogOut } from "./LoginHomePage";
 import Room from "./Room";
 import { Grid, Button, ButtonGroup, Typography } from "@material-ui/core";
 import {
@@ -40,7 +39,7 @@ export default class HomePage extends Component {
             <Grid container spacing={3}>
                 <Grid item xs={12} align="center">
                     <Typography variant="h3" compact="h3">
-                        House Party
+                        House Party <br /> Music Controller
                     </Typography>
                 </Grid>
                 <Grid item xs={12} align="center">
@@ -61,12 +60,15 @@ export default class HomePage extends Component {
                     </ButtonGroup>
                 </Grid>
                 <Grid item xs={12} align="center">
-                    <Button
-                        color="secondary"
-                        onClick={() => fire.auth().signOut()}
+                    <ButtonGroup
+                        disableElevation
+                        variant="contained"
+                        color="warning"
                     >
-                        Log Out
-                    </Button>
+                        <Button onClick={() => fire.auth().signOut()}>
+                            Log Out
+                        </Button>
+                    </ButtonGroup>
                 </Grid>
             </Grid>
         );
