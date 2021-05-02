@@ -2,11 +2,17 @@
 
 /*! dynamic exports */
 
+/*! export $ [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export AsyncMode [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export AsyncMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .AsyncMode */
 
+/*! export B [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export BrowserRouter [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export CONSTANTS [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export Children [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -15,6 +21,8 @@
 /*! export Component [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export Component [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .Component */
+
+/*! export ComponentContainer [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export ConcurrentMode [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -30,6 +38,12 @@
 
 /*! export DELAY_RIPPLE [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export DataSnapshot [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Database [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Deferred [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export ENTERED [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export ENTERING [provided] [no usage info] [missing usage info prevents renaming] */
@@ -42,6 +56,16 @@
 
 /*! export Element [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .Element */
 
+/*! export ErrorCode [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export ErrorFactory [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Event [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export EventType [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export FirebaseError [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export ForwardRef [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export ForwardRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .ForwardRef */
@@ -52,13 +76,25 @@
 
 /*! export Fragment [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .Fragment */
 
+/*! export G [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export H [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export HashRouter [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export L [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export Lazy [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export Lazy [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .Lazy */
 
 /*! export Link [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export LogLevel [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Logger [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export MAX_VALUE_MILLIS [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export Memo [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -69,6 +105,10 @@
 /*! export MemoryRouter [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .MemoryRouter */
 
 /*! export NavLink [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export O [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export OnDisconnect [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export Portal [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -84,13 +124,23 @@
 
 /*! export Prompt [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .Prompt */
 
+/*! export Provider [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export PureComponent [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export PureComponent [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .PureComponent */
 
+/*! export Q [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Query [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export RANDOM_FACTOR [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export Redirect [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export Redirect [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .Redirect */
+
+/*! export Reference [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export Route [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -102,9 +152,15 @@
 
 /*! export RuleList [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export ServerValue [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Sha1 [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export SheetsManager [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export SheetsRegistry [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Stat [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export StaticRouter [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -130,6 +186,16 @@
 
 /*! export UNMOUNTED [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export WebChannel [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export X [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export XhrIo [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export Y [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export _ [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export __HistoryContext [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export __RouterContext [provided] [no usage info] [missing usage info prevents renaming] */
@@ -140,17 +206,83 @@
 
 /*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED */
 
+/*! export __assign [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __asyncDelegator [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __asyncGenerator [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __asyncValues [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __await [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __awaiter [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __classPrivateFieldGet [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __classPrivateFieldSet [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __createBinding [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __decorate [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export __esModule [not provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export __exportStar [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __extends [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __generator [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __importDefault [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __importStar [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __makeTemplateObject [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __metadata [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __param [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __read [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __rest [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __spread [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __spreadArray [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __spreadArrays [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export __values [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export areCookiesEnabled [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export ariaHidden [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export assert [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export assertionError [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export async [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export base64 [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export base64Decode [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export base64Encode [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export calculateBackoffMillis [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export capitalize [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/capitalize.js .default */
 
 /*! export cloneElement [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export cloneElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .cloneElement */
+
+/*! export contains [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export create [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -190,9 +322,13 @@
 
 /*! export createRule [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export createSubscribe [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export createSvgIcon [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/createSvgIcon.js .default */
 
 /*! export createUnarySpacing [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export createWebChannelTransport [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export dark [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -200,23 +336,43 @@
 
 /*! export debounce [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/debounce.js .default */
 
+/*! export decode [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export decomposeColor [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export deepCopy [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export deepExtend [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@firebase/app/dist/index.esm.js .default */
 
 /*! export deprecatedPropType [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/deprecatedPropType.js .default */
 
 /*! export duration [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export e [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export easing [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export emphasize [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export enableLogging [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export errorPrefix [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export extractQuerystring [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export factory [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export fade [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export findDOMNode [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export findDOMNode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.production.min.js .findDOMNode */
+
+/*! export firebase [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export flushSync [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -236,9 +392,13 @@
 
 /*! export getDynamicStyles [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export getGlobalVars [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export getInitialChildMapping [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export getLuminance [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export getModularInstance [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export getNextChildMapping [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -246,7 +406,11 @@
 
 /*! export getOffsetTop [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export getStatEventTarget [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export getTransitionProps [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export getUA [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export handleBreakpoints [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -264,6 +428,8 @@
 
 /*! export increment [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export isAdmin [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export isAdornedStart [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isAsyncMode [provided] [no usage info] [missing usage info prevents renaming] */
@@ -271,6 +437,8 @@
 /*! export isAsyncMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isAsyncMode */
 
 /*! export isBrowser [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export isBrowserExtension [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isConcurrentMode [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -284,9 +452,13 @@
 
 /*! export isContextProvider [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isContextProvider */
 
+/*! export isElectron [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export isElement [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isElement */
+
+/*! export isEmpty [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isFilled [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -298,6 +470,10 @@
 
 /*! export isFragment [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isFragment */
 
+/*! export isIE [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export isIndexedDBAvailable [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export isLazy [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isLazy [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isLazy */
@@ -306,7 +482,13 @@
 
 /*! export isMemo [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isMemo */
 
+/*! export isMobileCordova [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export isMuiElement [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/isMuiElement.js .default */
+
+/*! export isNode [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export isNodeSdk [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isPlainObject [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -318,6 +500,10 @@
 
 /*! export isProfiler [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isProfiler */
 
+/*! export isReactNative [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export isSafari [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export isStrictMode [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isStrictMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isStrictMode */
@@ -326,6 +512,8 @@
 
 /*! export isSuspense [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isSuspense */
 
+/*! export isUWP [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export isValidElement [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isValidElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .isValidElement */
@@ -333,6 +521,16 @@
 /*! export isValidElementType [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export isValidElementType [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.production.min.js .isValidElementType */
+
+/*! export isValidFormat [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export isValidTimestamp [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export issuedAtTime [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export jsonEval [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export k [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export keys [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -346,6 +544,10 @@
 
 /*! export locationsAreEqual [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export m [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export map [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export matchPath [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export matchPath [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .matchPath */
@@ -356,6 +558,10 @@
 
 /*! export mergeChildMappings [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export n [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export ordinal [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export ownerDocument [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/ownerDocument.js .default */
 
 /*! export ownerWindow [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/ownerWindow.js .default */
@@ -364,9 +570,31 @@
 
 /*! export prefix [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export q [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export querystring [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export querystringDecode [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export recomposeColor [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export reflow [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export registerAnalytics [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export registerBundle [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export registerDatabase [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export registerFirestore [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export registerInstallations [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export registerPerformance [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export registerRemoteConfig [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export registerStorage [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export render [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -374,13 +602,31 @@
 
 /*! export requirePropFactory [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/requirePropFactory.js .default */
 
+/*! export resetGlobalVars [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export rgbToHex [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export s [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export safeGet [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export setLogLevel [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export setRef [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/@material-ui/core/esm/utils/setRef.js .default */
+
+/*! export setUserLogHandler [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export settings [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export sheets [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export sheetsManager [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export stringLength [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export stringToByteArray [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export stringify [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export styles [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -389,6 +635,8 @@
 /*! export supportedProperty [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export supportedValue [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export t [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export teardown [provided] [no usage info] [missing usage info prevents renaming] */
 
@@ -560,6 +808,18 @@
 
 /*! export useState [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.production.min.js .useState */
 
+/*! export v [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export validateArgCount [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export validateCallback [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export validateContextObject [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export validateIndexedDBOpenable [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export validateNamespace [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export version [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export version [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.production.min.js .version */
@@ -569,6 +829,10 @@
 /*! export withRouter [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export withRouter [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .withRouter */
+
+/*! export x [provided] [no usage info] [missing usage info prevents renaming] */
+
+/*! export z [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! exports [not provided] [no usage info] */
 
@@ -584,6 +848,10 @@
 
 /*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.g, __webpack_require__.d, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_exports__, top-level-this-exports */
+
 /*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.d, __webpack_require__.n, __webpack_require__.r, __webpack_require__.* */
 
 /*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.d, __webpack_require__.r, __webpack_require__.* */
@@ -594,11 +862,19 @@
 
 /*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.g, __webpack_require__.d, __webpack_require__.* */
 
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+
 /*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.g, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.g, __webpack_require__.d, __webpack_require__.* */
+
+/*! runtime requirements: __webpack_require__, module.loaded, module.id, module, __webpack_require__.hmd, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 
 /*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 
@@ -624,6 +900,14 @@
   !*** ./src/components/Room.js ***!
   \********************************/
 
+/*!********************************!*\
+  !*** ./src/components/fire.js ***!
+  \********************************/
+
+/*!*********************************!*\
+  !*** ./src/components/Login.js ***!
+  \*********************************/
+
 /*!************************************!*\
   !*** ./src/components/HomePage.js ***!
   \************************************/
@@ -631,6 +915,10 @@
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
+
+/*!***************************************!*\
+  !*** ./node_modules/idb/build/idb.js ***!
+  \***************************************/
 
 /*!***************************************!*\
   !*** ./node_modules/isarray/index.js ***!
@@ -654,6 +942,10 @@
 
 /*!*****************************************!*\
   !*** ./node_modules/scheduler/index.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/components/LoginHomePage.js ***!
   \*****************************************/
 
 /*!******************************************!*\
@@ -684,6 +976,10 @@
   !*** ./node_modules/path-to-regexp/index.js ***!
   \**********************************************/
 
+/*!*************************************************!*\
+  !*** ./node_modules/firebase/dist/index.esm.js ***!
+  \*************************************************/
+
 /*!**************************************************!*\
   !*** ./node_modules/@material-ui/icons/Pause.js ***!
   \**************************************************/
@@ -709,11 +1005,23 @@
   \*****************************************************/
 
 /*!******************************************************!*\
+  !*** ./node_modules/@firebase/app/dist/index.esm.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/@firebase/auth/dist/auth.esm.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
   !*** ./node_modules/@material-ui/icons/PlayArrow.js ***!
   \******************************************************/
 
 /*!*******************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/@firebase/util/dist/index.esm.js ***!
   \*******************************************************/
 
 /*!*******************************************************!*\
@@ -731,6 +1039,10 @@
 /*!********************************************************!*\
   !*** ./node_modules/react/cjs/react.production.min.js ***!
   \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/@firebase/logger/dist/index.esm.js ***!
+  \*********************************************************/
 
 /*!*********************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/Card/Card.js ***!
@@ -769,6 +1081,10 @@
   \*********************************************************/
 
 /*!**********************************************************!*\
+  !*** ./node_modules/@firebase/storage/dist/index.esm.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/colors/red.js ***!
   \**********************************************************/
 
@@ -782,6 +1098,10 @@
 
 /*!***********************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/typeof.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/@firebase/database/dist/index.esm.js ***!
   \***********************************************************/
 
 /*!***********************************************************!*\
@@ -829,6 +1149,22 @@
   \************************************************************/
 
 /*!************************************************************!*\
+  !*** ./node_modules/@firebase/analytics/dist/index.esm.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@firebase/component/dist/index.esm.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@firebase/functions/dist/index.esm.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@firebase/messaging/dist/index.esm.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/colors/green.js ***!
   \************************************************************/
 
@@ -843,6 +1179,10 @@
 /*!************************************************************!*\
   !*** ./node_modules/tiny-warning/dist/tiny-warning.esm.js ***!
   \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@firebase/firestore/dist/esm5/index.js ***!
+  \*************************************************************/
 
 /*!*************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/Button/Button.js ***!
@@ -883,6 +1223,14 @@
 /*!*************************************************************!*\
   !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
   \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@firebase/firestore/dist/esm5/bundle.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@firebase/performance/dist/index.esm.js ***!
+  \**************************************************************/
 
 /*!**************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/styles/shadows.js ***!
@@ -926,6 +1274,14 @@
 
 /*!****************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/createClass.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/@firebase/installations/dist/index.esm.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/@firebase/remote-config/dist/index.esm.js ***!
   \****************************************************************/
 
 /*!****************************************************************!*\
@@ -1073,6 +1429,10 @@
   \********************************************************************/
 
 /*!********************************************************************!*\
+  !*** ./node_modules/@firebase/app/node_modules/tslib/tslib.es6.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/Modal/SimpleBackdrop.js ***!
   \********************************************************************/
 
@@ -1094,6 +1454,14 @@
 
 /*!*********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@firebase/util/node_modules/tslib/tslib.es6.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@firebase/webchannel-wrapper/dist/index.esm.js ***!
   \*********************************************************************/
 
 /*!*********************************************************************!*\
@@ -1225,6 +1593,10 @@
   \***********************************************************************/
 
 /*!************************************************************************!*\
+  !*** ./node_modules/@firebase/storage/node_modules/tslib/tslib.es6.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/RadioGroup/useRadioGroup.js ***!
   \************************************************************************/
 
@@ -1245,6 +1617,10 @@
   \*************************************************************************/
 
 /*!*************************************************************************!*\
+  !*** ./node_modules/@firebase/database/node_modules/tslib/tslib.es6.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/NativeSelect/NativeSelect.js ***!
   \*************************************************************************/
 
@@ -1254,6 +1630,26 @@
 
 /*!**************************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@firebase/analytics/node_modules/tslib/tslib.es6.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@firebase/component/node_modules/tslib/tslib.es6.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@firebase/firestore/node_modules/tslib/tslib.es6.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@firebase/functions/node_modules/tslib/tslib.es6.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./node_modules/@firebase/messaging/node_modules/tslib/tslib.es6.js ***!
   \**************************************************************************/
 
 /*!**************************************************************************!*\
@@ -1285,6 +1681,10 @@
   \****************************************************************************/
 
 /*!****************************************************************************!*\
+  !*** ./node_modules/@firebase/performance/node_modules/tslib/tslib.es6.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/FormControl/formControlState.js ***!
   \****************************************************************************/
 
@@ -1311,6 +1711,14 @@
 /*!*****************************************************************************!*\
   !*** ./node_modules/@material-ui/styles/esm/getThemeProps/getThemeProps.js ***!
   \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@firebase/installations/node_modules/tslib/tslib.es6.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@firebase/remote-config/node_modules/tslib/tslib.es6.js ***!
+  \******************************************************************************/
 
 /*!******************************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/FormControl/FormControlContext.js ***!
@@ -1363,6 +1771,10 @@
 /*!*********************************************************************************!*\
   !*** ./node_modules/@material-ui/lab/esm/internal/svg-icons/SuccessOutlined.js ***!
   \*********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@firebase/firestore/dist/esm5/prebuilt-3c03a633-33a12d73.js ***!
+  \**********************************************************************************/
 
 /*!**********************************************************************************!*\
   !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!

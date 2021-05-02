@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import RoomJoinPage from "./RoomJoinPage";
 import CreateRoomPage from "./CreateRoomPage";
+import { handleLogOut } from "./LoginHomePage";
 import Room from "./Room";
 import { Grid, Button, ButtonGroup, Typography } from "@material-ui/core";
 import {
@@ -11,19 +12,9 @@ import {
     Redirect,
 } from "react-router-dom";
 import Info from "./Info";
+import fire from "./fire";
 
-// function Hero({ handleLogOut }) {
-//     return (
-//         <section className="hero">
-//             <nav>
-//                 <h2>Welcome</h2>
 //                 <button onClick={handleLogOut}>Log Out</button>
-//             </nav>
-//         </section>
-//     );
-// }
-
-// export default Hero;
 
 export default class HomePage extends Component {
     constructor(props) {
@@ -68,6 +59,14 @@ export default class HomePage extends Component {
                             Create a Room
                         </Button>
                     </ButtonGroup>
+                </Grid>
+                <Grid item xs={12} align="center">
+                    <Button
+                        color="secondary"
+                        onClick={() => fire.auth().signOut()}
+                    >
+                        Log Out
+                    </Button>
                 </Grid>
             </Grid>
         );
