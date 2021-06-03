@@ -1,9 +1,0 @@
-[python]
-  command = "python manage.py runserver"
-  publish="./music_controller/frontend/src/components/App.js"
-  base = "./music_controller"
-
-[[redirects]]
-  from = "/*"
-  to = "/home"
-  status = 200
