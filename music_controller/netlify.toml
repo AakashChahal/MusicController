@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish="./music_controller/build"
+  command = "python manage.py runserver"
+  publish="./music_controller/frontend/src/components/App.js"
   base = "./music_controller"
 
 [[redirects]]
