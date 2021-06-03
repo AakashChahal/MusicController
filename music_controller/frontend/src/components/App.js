@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import LoginHomePage from "./LoginHomePage";
+import ContactForm from "./feedback";
 
 export default class App extends Component {
     constructor(props) {

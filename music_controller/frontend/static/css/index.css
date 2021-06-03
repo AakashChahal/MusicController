@@ -1,5 +1,6 @@
 html,
 body {
+    overflow: hidden;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -21,13 +22,13 @@ body {
 .center {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
 }
 
 #gradient {
     width: 100%;
-    height: 800px;
+    height: 100%;
     padding: 0px;
     margin: 0px;
 }
@@ -35,18 +36,20 @@ body {
 .login {
     width: 100%;
     min-height: 100vh;
-    padding: 0 20px;
+    padding: 0px 40px;
     /* background: #e9e9e9; */
     text-align: center;
     display: flex;
 }
 
 .login .loginContainer {
+    border-radius: 10px;
     padding: 60px;
     margin: auto;
     width: 100%;
     max-width: 520px;
     min-height: 40px;
+    max-height: 470px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,4 +144,43 @@ h2 {
     letter-spacing: 1px;
     background: #058d00;
     cursor: pointer;
+}
+
+.feedback-btn {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    /* background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%); */
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+    .login .loginContainer {
+        border-radius: 10px;
+        padding: 40px;
+        margin: auto;
+        margin-left: 0;
+        width: 100%;
+        max-width: 260px;
+        min-height: 40px;
+        max-height: 90vh;
+    }
+
+    .feedback-btn {
+        width: fit-content;
+    }
+
+    .center {
+        left: 40%;
+    }
 }

@@ -1,3 +1,11 @@
 from django.db import models
 
-# Create your models here.
+
+class Feedback(models.Model):
+    customer_name = models.CharField(max_length=120)
+    email = models.EmailField()
+    details = models.TextField()
+    date = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return self.customer_name

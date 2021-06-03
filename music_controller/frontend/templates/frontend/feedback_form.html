@@ -1,0 +1,76 @@
+<script>
+    function goBack(e) {
+        e.preventDefault();
+        console.log("hello");
+        window.location = window.location.href.slice(0, -8);
+    }
+</script>
+{% extends 'frontend/base.html' %} {% block title %}Feedback Form{% endblock %}
+{% block body %}
+<form action="{% url 'frontend:form' %}" method="POST">
+    {% csrf_token %}
+    <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <p>
+                                GIVE FEEDBACK <br />
+                                OR <br />
+                                REQUEST FOR PASSWORD CHANGE
+                            </p>
+                        </div>
+                    </div>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input
+                                    class="app-form-control"
+                                    placeholder="NAME"
+                                    name="customer_name"
+                                />
+                            </div>
+                            <div class="app-form-group">
+                                <input
+                                    class="app-form-control"
+                                    placeholder="EMAIL"
+                                    name="email"
+                                />
+                            </div>
+                            <div class="app-form-group message">
+                                <input
+                                    class="app-form-control"
+                                    placeholder="MESSAGE"
+                                    name="details"
+                                />
+                            </div>
+                            <div class="app-form-group buttons">
+                                <input class="app-form-button" type="submit" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div>
+                <button class="home-btn" onclick="goBack(arguments[0]);">
+                    HOME
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+{% endblock %}

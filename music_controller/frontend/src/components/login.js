@@ -1,4 +1,12 @@
 import React from "react";
+import Button from "@material-ui/core";
+import Link from "react-router-dom";
+
+function handleFeedback() {
+    console.log(window.location);
+    window.location = window.location.href + "feedback";
+    console.log(window.location);
+}
 
 function Login(props) {
     const {
@@ -69,6 +77,9 @@ function Login(props) {
                         </>
                     )}
                 </div>
+                <button className="feedback-btn" onClick={handleFeedback}>
+                    Feedback/Password Change Request
+                </button>
             </div>
         </section>
     );

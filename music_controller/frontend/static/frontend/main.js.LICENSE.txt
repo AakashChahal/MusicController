@@ -1,45 +1,3 @@
-/*! CommonJS bailout: exports is used directly at 2:73-80 */
-
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 10:121-141 */
-
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 11:504-524 */
-
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 12:312-332 */
-
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:15-35 */
-
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 16:248-268 */
-
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 19:56-76 */
-
-/*! CommonJS bailout: exports.unstable_shouldYield(...) prevents optimization as exports is passed as call context at 16:106-134 */
-
-/*! CommonJS bailout: module.exports is used directly at 103:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 16:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 17:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 18:2-16 */
-
-/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 55:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 5:4-18 */
-
-/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 6:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
-
-/*! CommonJS bailout: module.exports is used directly at 9:4-18 */
-
-/*! CommonJS bailout: this is used directly at 5:2-6 */
-
 /*! default exports */
 
 /*! dynamic exports */
@@ -808,6 +766,8 @@
 
 /*! export useFormControl [provided] [no usage info] [missing usage info prevents renaming] */
 
+/*! export useFormControls [provided] [no usage info] [missing usage info prevents renaming] */
+
 /*! export useHistory [provided] [no usage info] [missing usage info prevents renaming] */
 
 /*! export useHistory [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .useHistory */
@@ -954,6 +914,10 @@
   !*** ./src/components/HomePage.js ***!
   \************************************/
 
+/*!************************************!*\
+  !*** ./src/components/feedback.js ***!
+  \************************************/
+
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
@@ -1017,6 +981,10 @@
 /*!**********************************************!*\
   !*** ./node_modules/path-to-regexp/index.js ***!
   \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/ContactFormControls.js ***!
+  \***********************************************/
 
 /*!*************************************************!*\
   !*** ./node_modules/firebase/dist/index.esm.js ***!

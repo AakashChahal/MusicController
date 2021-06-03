@@ -1,0 +1,17 @@
+<script>
+    setTimeout(function () {
+        window.location = window.location.href.slice(0, -8);
+    }, 3000);
+</script>
+
+{% extends 'frontend/base.html' %} {% block title %}Feedback Form{% endblock %}
+{% block body %}
+<center>
+    <form action="{% url 'frontend:form' %}" method="POST">
+        {% csrf_token %}
+        <h1>Thanks for your response.</h1>
+        <p>We will contact you ASAP</p>
+        <p>This page will redirect to Home Page in 3 seconds</p>
+    </form>
+</center>
+{% endblock %}
