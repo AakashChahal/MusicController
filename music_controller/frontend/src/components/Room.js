@@ -114,7 +114,7 @@ export default class Room extends Component {
                         updateCallback={this.getRoomDetails}
                     />
                 </Grid>
-                <Grid item xs={12} align="center">
+                <Grid className="center-app" item xs={12} align="center">
                     <Button
                         variant="contained"
                         color="secondary"
