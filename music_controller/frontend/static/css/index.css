@@ -58,13 +58,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: radial-gradient(
-        ellipse at left bottom,
-        rgb(19, 240, 74) 0%,
-        rgba(56, 214, 8, 0.9) 59%,
-        rgba(21, 255, 0, 0.9) 100%
-    );
-    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+    background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 1);
 }
 
 .login .loginContainer label {
@@ -188,16 +185,28 @@ h2 {
         overflow: visible;
     }
 
+    h2 {
+        font-size: 1.2rem;
+    }
+
     .login .loginContainer {
         border-radius: 10px;
-        padding: 30px 40px;
-        margin-top: 10px;
-        margin-bottom: 0;
-        margin-left: 0;
-        width: 100%;
-        max-width: 100vw;
+        padding: 3rem 2.5rem;
+        margin: auto;
+        max-width: 70vw;
         min-height: 40px;
-        max-height: 90vh;
+        max-height: 70vh;
+        background: #3ca55c; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+            to right,
+            #b5ac49,
+            #3ca55c
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #b5ac49,
+            #3ca55c
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     .feedback-btn {
@@ -205,7 +214,6 @@ h2 {
     }
 
     .center {
-        /* position: relative; */
         left: 40%;
     }
 }

@@ -95,9 +95,9 @@ export default class MusicPlayer extends Component {
                             {this.props.artist}
                         </Typography>
                         <div>
-                            <IconButton onClick={() => this.seekSong()}>
+                            {/* <IconButton onClick={() => this.seekSong()}>
                                 <ReplayIcon />
-                            </IconButton>
+                            </IconButton> */}
                             {/* <IconButton onClick={() => this.prevSong()}>
                                 <SkipPreviousIcon />
                                 {this.props.votes} / {this.props.votes_required}
