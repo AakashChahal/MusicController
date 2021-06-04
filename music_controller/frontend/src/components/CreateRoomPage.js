@@ -32,12 +32,10 @@ export default class CreateRoomPage extends Component {
 
         this.handleRoomButtonPressed = this.handleRoomButtonPressed.bind(this);
         this.handleVotesChange = this.handleVotesChange.bind(this);
-        this.handleGuestCanPauseChange = this.handleGuestCanPauseChange.bind(
-            this
-        );
-        this.handleUpdateButtonPressed = this.handleUpdateButtonPressed.bind(
-            this
-        );
+        this.handleGuestCanPauseChange =
+            this.handleGuestCanPauseChange.bind(this);
+        this.handleUpdateButtonPressed =
+            this.handleUpdateButtonPressed.bind(this);
     }
 
     handleVotesChange(e) {
@@ -92,7 +90,7 @@ export default class CreateRoomPage extends Component {
 
     renderCreateButtons() {
         return (
-            <Grid container spacing={1}>
+            <Grid className="center-app" container spacing={1}>
                 <Grid item xs={12} align="center">
                     <Button
                         color="primary"
@@ -118,7 +116,7 @@ export default class CreateRoomPage extends Component {
 
     renderUpdateButtons() {
         return (
-            <Grid item xs={12} align="center">
+            <Grid className="center-app" item xs={12} align="center">
                 <Button
                     color="primary"
                     variant="contained"
@@ -135,7 +133,7 @@ export default class CreateRoomPage extends Component {
 
         return (
             <Grid container spacing={1}>
-                <Grid item xs={12} align="center">
+                <Grid className="center-app" item xs={12} align="center">
                     <Collapse
                         in={
                             this.state.errorMsg != "" ||
@@ -163,13 +161,13 @@ export default class CreateRoomPage extends Component {
                         )}
                     </Collapse>
                 </Grid>
-                <Grid item xs={12} align="center">
+                <Grid className="center-app" item xs={12} align="center">
                     <Typography component="h4" variant="h4">
                         {title}
                     </Typography>
                 </Grid>
                 <Grid item xs={12} align="center">
-                    <FormControl component="fieldset">
+                    <FormControl className="center-app" component="fieldset">
                         <FormHelperText>
                             <div align="center">
                                 Guest Control of Playback State
@@ -196,7 +194,7 @@ export default class CreateRoomPage extends Component {
                     </FormControl>
                 </Grid>
                 <Grid item xs={12} align="center">
-                    <FormControl>
+                    <FormControl className="center-app">
                         <TextField
                             required={true}
                             type="number"

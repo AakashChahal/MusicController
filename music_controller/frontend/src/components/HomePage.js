@@ -36,18 +36,14 @@ export default class HomePage extends Component {
 
     renderHomePage() {
         return (
-            <Grid container spacing={3}>
+            <Grid className="center-app" container spacing={3} align="center">
                 <Grid item xs={12} align="center">
                     <Typography variant="h3" compact="h3">
                         House Party <br /> Music Controller
                     </Typography>
                 </Grid>
                 <Grid item xs={12} align="center">
-                    <ButtonGroup
-                        disableElevation
-                        variant="contained"
-                        color="primary"
-                    >
+                    <ButtonGroup variant="contained" color="primary">
                         <Button color="primary" to="/join" component={Link}>
                             Join a Room
                         </Button>
@@ -60,12 +56,11 @@ export default class HomePage extends Component {
                     </ButtonGroup>
                 </Grid>
                 <Grid item xs={12} align="center">
-                    <ButtonGroup
-                        disableElevation
-                        variant="contained"
-                        color="warning"
-                    >
-                        <Button onClick={() => fire.auth().signOut()}>
+                    <ButtonGroup variant="contained">
+                        <Button
+                            className="logout-btn"
+                            onClick={() => fire.auth().signOut()}
+                        >
                             Log Out
                         </Button>
                     </ButtonGroup>
