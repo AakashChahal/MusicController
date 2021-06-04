@@ -80,14 +80,14 @@ export default class MusicPlayer extends Component {
         return (
             <Card>
                 <Grid container alignItems="center">
-                    <Grid item align="center" xs={4}>
+                    <Grid item align="center" xs={12} sm={4}>
                         <img
                             src={this.props.image_url}
                             height="100%"
                             width="100%"
                         />
                     </Grid>
-                    <Grid item align="center" xs={8}>
+                    <Grid item align="center" xs={12} sm={8}>
                         <Typography component="h5" variant="h5">
                             {this.props.title}
                         </Typography>
@@ -98,10 +98,10 @@ export default class MusicPlayer extends Component {
                             <IconButton onClick={() => this.seekSong()}>
                                 <ReplayIcon />
                             </IconButton>
-                            <IconButton onClick={() => this.prevSong()}>
+                            {/* <IconButton onClick={() => this.prevSong()}>
                                 <SkipPreviousIcon />
                                 {this.props.votes} / {this.props.votes_required}
-                            </IconButton>
+                            </IconButton> */}
                             <IconButton
                                 onClick={() => {
                                     this.props.is_playing
