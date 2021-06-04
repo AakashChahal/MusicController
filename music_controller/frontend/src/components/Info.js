@@ -19,7 +19,7 @@ export default function Info(props) {
     }
 
     function createInfo() {
-        return "Give Feedback or Request to Change password or delete your account";
+        return "Give Feedback or Request to Change password or delete your account\n\nNOTE:To change your password you will get a link on the email address you provided.";
     }
 
     useEffect(() => {
