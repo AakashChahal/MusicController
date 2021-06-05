@@ -41,6 +41,7 @@ function Login(props) {
                 <label htmlFor="">Password</label>
                 <input
                     type="password"
+                    minLength="8"
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}

@@ -8,17 +8,8 @@
 
 body {
     min-height: 90vh;
-    background: #5a3f37; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to right,
-        #2c7744,
-        #5a3f37
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to right,
-        #2c7744,
-        #5a3f37
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #166d3b;
+    background-image: linear-gradient(117deg, #166d3b 0%, #000000 74%);
     font-size: 12px;
 }
 

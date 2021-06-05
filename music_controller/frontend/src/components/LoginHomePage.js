@@ -52,6 +52,9 @@ function LoginHomePage() {
                     case "auth/wrong-password":
                         setPasswordError(err.message);
                         break;
+                    case "auth/weak-password":
+                        setPasswordError("Enter a stronger password");
+                        break;
                 }
             });
     };
