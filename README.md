@@ -44,3 +44,11 @@ or for development:
 npm run dev
 ```
 
+### Important: 
+I have not uploaded my credentials.py for obvious reasons. So create a new file inside spotify folder with the name credentials.py, and inside of it write 3 variables
+* CLIENT_ID
+* CLIENT_SECRET
+* REDIRECT_URI
+
+All these values you will get when you create a developer account on spotify and start a new app or use an existing one and also try to use the same variable name, so that you don't have to worry about changing the name in other files as well
+
