@@ -180,7 +180,7 @@ h2 {
     cursor: pointer;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 600px) {
     body {
         overflow: visible;
     }
@@ -215,5 +215,34 @@ h2 {
 
     .center {
         left: 40%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .login .loginContainer {
+        border-radius: 10px;
+        /* padding: 3rem 2.5rem; */
+        margin-top: 15rem;
+        margin-bottom: 1rem;
+        /* max-height: 70vh; */
+        background: #3ca55c; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+            to right,
+            #b5ac49,
+            #3ca55c
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #b5ac49,
+            #3ca55c
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    #main {
+        overflow-x: scroll;
     }
 }
