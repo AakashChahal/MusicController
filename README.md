@@ -13,7 +13,7 @@ To start the web server you need to run the following sequence of commands.
 
 First cd into your desired tutorial folder (replace x with tutorial number).
 ```bash 
-cd "music_controller"
+cd music_controller
 ```
 Next run the django web server.
 ```bash
