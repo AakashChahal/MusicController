@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 To start the web server you need to run the following sequence of commands.
 
-First cd into your desired tutorial folder (replace x with tutorial number).
+First cd into the music_controller folder
 ```bash 
 cd music_controller
 ```
